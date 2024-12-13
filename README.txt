@@ -27,18 +27,18 @@ Type EXIT to leave the quest.
 Completion: Finding all the horses will complete the quest.
 Files in the Project
 
-1. m1.py
+1. gameProfile.py
 Contains functions for player setup:
 Assigning a name.
 Choosing a class.
 Increasing stats using crystals.
 Displaying player profile.
 
-2. m2.py
+2. quests.py
 Contains functions for quests:
 goblinFight: Handles the goblin-fighting quest.
 horseSearching: Handles the horse-searching quest.
 
-3. final.py
-Combines m1.py and m2.py to create the main gameplay loop.
+3. finalCode.py
+Combines gameProfile.py and quests.py to create the main gameplay loop.
 Dynamically displays available quests in the menu.
