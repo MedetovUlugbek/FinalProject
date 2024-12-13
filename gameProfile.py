@@ -1,3 +1,5 @@
+# This file is the beginning of the game. Its main purpose is to create a profile and stats for the player.
+
 # This function assigns a name for player and initializes global variables
 def playerInfo():
     global playerName
