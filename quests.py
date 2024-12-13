@@ -1,6 +1,6 @@
 # This is a second part of the game, after players passes the first chapter of the game.
 # This file contains 2 chapters in forms of quests. Player can choose any of two quests that are available as of right now.
-import m1
+import gameProfile
 
 def goblinFight():
     questNPC = "Lily"
