@@ -1,5 +1,5 @@
-import m1
-import m2
+import gameProfile
+import quests
 
 # This code creates a loop where, after setting up the character, player can go and complete different chapters in form of quests.
 # There is no specific order for quest completion. When Player completes the quest of his/her choice, he won't be able to do it again.
