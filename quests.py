@@ -1,4 +1,5 @@
-# This is a second module after Player is registered in a hunter's association
+# This is a second part of the game, after players passes the first chapter of the game.
+# This file contains 2 chapters in forms of quests. Player can choose any of two quests that are available as of right now.
 import m1
 
 def goblinFight():
