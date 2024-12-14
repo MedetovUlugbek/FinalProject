@@ -4,11 +4,11 @@ import quests
 # This code creates a loop where, after setting up the character, player can go and complete different chapters in form of quests.
 # There is no specific order for quest completion. When Player completes the quest of his/her choice, he won't be able to do it again.
 def main():
-    m1.playerInfo()
-    m1.playerNameAssignment()
-    m1.playerClassSelection()
-    m1.playerPowerIncreaseItems()
-    m1.playerProfile()
+    gameProfile.playerInfo()
+    gameProfile.playerNameAssignment()
+    gameProfile.playerClassSelection()
+    gameProfile.playerPowerIncreaseItems()
+    gameProfile.playerProfile()
     
     while True:
         print("\nWhat would you like to do next?")
@@ -18,9 +18,9 @@ def main():
         choice = input("Enter your choice (1/2/3): ")
         
         if choice == "1":
-            m2.goblinFight()
+            quests.goblinFight()
         elif choice == "2":
-            m2.horseSearching()
+            quests.horseSearching()
         elif choice == "3":
             print("Thank you for playing! Goodbye.")
             break
