@@ -63,4 +63,3 @@ def horseSearching():
     
     else:
         print("Please choose either 'Y' or 'N'")
-
